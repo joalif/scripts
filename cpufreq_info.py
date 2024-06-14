@@ -46,7 +46,7 @@ def process(indir, outfile=None):
             msgs = []
             msg = f'CPU {cpu}'
             init_freq = '3000'
-            i = +1
+            i = 0
             msgs.append(msg)
             for line in f:
                 line = line.strip()
